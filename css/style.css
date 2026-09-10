@@ -103,10 +103,10 @@ button{ font-family: inherit; }
 }
 .site-header .wrap{
   display:flex; align-items:center; justify-content:space-between;
-  height: 76px;
+  height: 100px;
 }
 .brand{ display:flex; align-items:center; gap:10px; text-decoration:none; }
-.brand img{ height: 40px; width:auto; }
+.brand img{ height: 64px; width:auto; }
 .brand-text{ display:none; }
 .main-nav{ display:flex; align-items:center; gap: 28px; }
 .main-nav a{
