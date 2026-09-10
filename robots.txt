@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /admin.html
 
-Sitemap: https://www.citiacademy.example/sitemap.xml
+Sitemap: https://md-muzaffar.github.io/CITI-ACADEMY---website/sitemap.xml
