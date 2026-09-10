@@ -6,7 +6,10 @@
     "city": "Mahabubnagar",
     "state": "Telangana",
     "pincode": "509001",
-    "phones": ["6303919454", "9177289857"],
+    "phones": [
+      "6303919454",
+      "9177289857"
+    ],
     "mapQuery": "Waqf Complex, Near Haji Gaffar Petrol Pump, Mahabubnagar, Telangana 509001"
   },
   "courses": [
@@ -60,7 +63,7 @@
       "tagline": "Word, Excel & PowerPoint for real work",
       "category": "Digital Skills",
       "open": true,
-      "duration": "6 Weeks",
+      "duration": "3 Weeks",
       "mode": "Offline / Online",
       "eligibility": "10th, 12th or any degree",
       "fee": 2999,
