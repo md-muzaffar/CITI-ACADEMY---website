@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Admin — CITI Academy</title>
+<meta name="robots" content="noindex, nofollow" />
+<link rel="icon" href="assets/favicon-32.png" sizes="32x32" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html"><img src="assets/logo.png" alt="CITI Academy" /></a>
+    <div class="header-cta"><a class="btn btn-navy" href="index.html">Back to site</a></div>
+  </div>
+</header>
+
+<div class="admin-shell">
+  <h1 style="font-size:1.5rem; color:var(--navy-900); margin-top:28px;">Course admin</h1>
+  <p>Toggle admissions open/closed, edit course details, or add a new course. Changes save directly to <code>data/courses.json</code> in your GitHub repository, so the live site updates as soon as the commit is made (usually within a minute on GitHub Pages).</p>
+
+  <div class="admin-warning">
+    This page writes to your repository using a GitHub personal access token that you paste below. The token is kept only in this browser tab's memory (<code>sessionStorage</code>) — it is never sent anywhere except GitHub's API, and it disappears when you close the tab. Do not use this page on a shared or public computer, and use a fine-grained token scoped only to this one repository. See README.md → "Using the admin panel" for how to create one.
+  </div>
+
+  <div class="admin-card" id="connectCard">
+    <h2>Connect to your GitHub repository</h2>
+    <div class="reg-form">
+      <div class="row2">
+        <div class="field">
+          <label for="ghOwner">Repository owner (your GitHub username or org)</label>
+          <input id="ghOwner" type="text" placeholder="e.g. citiacademy" />
+        </div>
+        <div class="field">
+          <label for="ghRepo">Repository name</label>
+          <input id="ghRepo" type="text" placeholder="e.g. citi-academy-website" />
+        </div>
+      </div>
+      <div class="row2">
+        <div class="field">
+          <label for="ghBranch">Branch</label>
+          <input id="ghBranch" type="text" value="main" />
+        </div>
+        <div class="field">
+          <label for="ghToken">GitHub personal access token</label>
+          <input id="ghToken" type="password" placeholder="ghp_..." />
+        </div>
+      </div>
+      <button class="btn btn-navy" id="connectBtn">Load courses</button>
+      <div class="form-msg" id="connectMsg"></div>
+    </div>
+  </div>
+
+  <div id="editorArea" style="display:none;">
+    <div class="admin-card">
+      <div class="course-row-top">
+        <h2 style="margin:0;">Existing courses</h2>
+        <button class="btn btn-primary" id="saveBtn">Save changes to GitHub</button>
+      </div>
+      <p>Toggle a switch to open or close admissions instantly. Edit any field, then click "Save changes" once at the bottom — one click commits every edit on this page.</p>
+      <div id="courseRows"></div>
+    </div>
+
+    <div class="admin-card">
+      <h2>Add a new course</h2>
+      <div class="reg-form">
+        <div class="row2">
+          <div class="field"><label>Course name</label><input id="newName" type="text" placeholder="e.g. Digital Marketing" /></div>
+          <div class="field"><label>Category</label><input id="newCategory" type="text" placeholder="e.g. Marketing" /></div>
+        </div>
+        <div class="row2">
+          <div class="field"><label>Duration</label><input id="newDuration" type="text" placeholder="e.g. 2 Months" /></div>
+          <div class="field"><label>Mode</label><input id="newMode" type="text" placeholder="e.g. Offline / Online" /></div>
+        </div>
+        <div class="row2">
+          <div class="field"><label>Fee (₹)</label><input id="newFee" type="number" placeholder="4999" /></div>
+          <div class="field"><label>Original fee (₹, optional)</label><input id="newOriginalFee" type="number" placeholder="8000" /></div>
+        </div>
+        <div class="field"><label>Eligibility</label><input id="newEligibility" type="text" placeholder="e.g. 10th, 12th or any degree" /></div>
+        <div class="field"><label>Tagline (short, shown on the course card)</label><input id="newTagline" type="text" /></div>
+        <div class="field"><label>Overview</label><textarea id="newOverview"></textarea></div>
+        <div class="field"><label>What you'll learn (one line per concept)</label><textarea class="mono" id="newConcepts" rows="5"></textarea></div>
+        <div class="field"><label>Practical work (one line per item)</label><textarea class="mono" id="newPractical" rows="4"></textarea></div>
+        <div class="field"><label>Mock interview description</label><textarea id="newMockInterview"></textarea></div>
+        <div class="field"><label>Resume preparation description</label><textarea id="newResumePrep"></textarea></div>
+        <div class="field"><label>Certification description</label><textarea id="newCertification"></textarea></div>
+        <div class="field"><label>Highlights (one line per item)</label><textarea class="mono" id="newHighlights" rows="4"></textarea></div>
+        <button class="btn btn-navy" id="addCourseBtn">Add course to list below</button>
+        <p style="font-size:.82rem;">This adds it to the list above only — remember to click "Save changes to GitHub" afterwards.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="js/shared.js"></script>
+<script src="js/admin.js"></script>
+</body>
+</html>

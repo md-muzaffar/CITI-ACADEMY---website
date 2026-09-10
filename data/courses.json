@@ -1,0 +1,181 @@
+{
+  "institute": {
+    "name": "CITI Academy",
+    "tagline": "Learn Today, Build Tomorrow",
+    "address": "A Block, 1st Floor, Waqf Complex, Near Opp Haji Gaffar Petrol Pump, Mahabubnagar - 509001, Telangana",
+    "city": "Mahabubnagar",
+    "state": "Telangana",
+    "pincode": "509001",
+    "phones": ["6303919454", "9177289857"],
+    "mapQuery": "Waqf Complex, Near Haji Gaffar Petrol Pump, Mahabubnagar, Telangana 509001"
+  },
+  "courses": [
+    {
+      "id": "python-developer",
+      "name": "Python Developer",
+      "tagline": "From basics to career-ready",
+      "category": "Programming",
+      "open": true,
+      "duration": "3 Months",
+      "mode": "Offline / Online",
+      "eligibility": "10th, 12th or any degree",
+      "fee": 4999,
+      "originalFee": 10000,
+      "certification": "CITI Academy Certificate in Python Programming, awarded on successful completion of practicals, mock tests and the final project.",
+      "overview": "A hands-on Python course that takes you from your first line of code to job-ready developer skills. Built around practice, not just theory, with real projects, mock tests and interview preparation baked into every stage.",
+      "concepts": [
+        "Python fundamentals: variables, data types, operators",
+        "Conditional statements and loops",
+        "Functions and reusable code blocks",
+        "Lists, tuples, dictionaries and sets",
+        "File handling and exception handling",
+        "Object-oriented programming in Python",
+        "Working with modules and libraries",
+        "Basic problem-solving and coding practice",
+        "Beginner-to-advanced level progression, one language, endless opportunities"
+      ],
+      "practical": [
+        "Daily hands-on coding exercises",
+        "Mini projects at the end of every topic",
+        "A capstone project to showcase on your resume",
+        "Regular doubt-clearing sessions with trainers"
+      ],
+      "mockInterview": "Structured mock interviews with technical and HR-style questions, plus one-on-one feedback before you start applying.",
+      "resumePrep": "Guided resume building focused on projects, skills and certifications that recruiters actually look for.",
+      "highlights": [
+        "Practical training",
+        "Mock tests",
+        "Industry-recognised certificate",
+        "Interview preparation & guidance",
+        "Resume building support",
+        "Experienced & friendly trainers",
+        "Doubt clearing sessions",
+        "Flexible learning (offline / online)",
+        "Career guidance"
+      ]
+    },
+    {
+      "id": "ms-office",
+      "name": "MS Office Professional",
+      "tagline": "Word, Excel & PowerPoint for real work",
+      "category": "Digital Skills",
+      "open": true,
+      "duration": "6 Weeks",
+      "mode": "Offline / Online",
+      "eligibility": "10th, 12th or any degree",
+      "fee": 2999,
+      "originalFee": 5000,
+      "certification": "CITI Academy Certificate in MS Office Professional Skills, awarded after practical assessments in Word, Excel and PowerPoint.",
+      "overview": "A practical, project-based course covering the three tools every office and classroom runs on. You will leave able to produce polished documents, working spreadsheets with formulas and dashboards, and presentations that hold a room.",
+      "concepts": [
+        "MS Word: document formatting, page layout, styles, tables, images, headers/footers, mail merge, track changes",
+        "MS Word projects: letters, reports, certificates, worksheets, notices",
+        "MS Excel: workbook and worksheet basics, data entry and formatting",
+        "MS Excel formulas: SUM, AVERAGE, IF, COUNTIF, VLOOKUP / XLOOKUP",
+        "MS Excel: sorting, filtering, data validation, charts, Pivot Tables and dashboards",
+        "MS Excel projects: attendance tracker, marksheet, result analysis, dashboard",
+        "MS PowerPoint: slide design, themes, layouts, multimedia, SmartArt, animations and transitions",
+        "MS PowerPoint: Slide Master, Presenter View, timings, interactive presentations",
+        "Integrated capstone combining Word, Excel and PowerPoint in one project"
+      ],
+      "practical": [
+        "Real office-style documents, sheets and decks, not just sample files",
+        "One graded project per tool",
+        "A final integrated capstone project"
+      ],
+      "mockInterview": "Guidance on the kind of practical tasks employers test for in office-assistant and back-office interviews.",
+      "resumePrep": "Help listing your MS Office proficiency and completed projects clearly on a resume.",
+      "highlights": [
+        "Practical training",
+        "Project-based learning",
+        "Industry-recognised certificate",
+        "Resume building support",
+        "Experienced & friendly trainers",
+        "Doubt clearing sessions",
+        "Flexible learning (offline / online)"
+      ]
+    },
+    {
+      "id": "professional-computer-teacher-training",
+      "name": "Professional Computer Teacher Training",
+      "tagline": "Certificate in Computer Applications for Teachers",
+      "category": "Teacher Training",
+      "open": true,
+      "duration": "5-6 Months (3-month intensive option available)",
+      "mode": "Classroom / Lab-based, practical-first",
+      "eligibility": "In-service and aspiring school teachers, teacher-training institutes, education staff",
+      "fee": 9999,
+      "originalFee": 15000,
+      "certification": "Certificate in Professional Digital Teaching, issued on completion of all four modules, the final integrated project and the assessment.",
+      "overview": "A complete four-module program that turns teachers into confident, tech-enabled classroom professionals: digital office skills, child psychology and communication, foundational programming, and real classroom and interview readiness, trained at a practical-to-theory ratio of 80:20.",
+      "concepts": [
+        "Module 1 - Computer Fundamentals: hardware, memory & storage, operating systems, file management, keyboard shortcuts",
+        "Module 1 - MS Office Suite: Word, Excel and PowerPoint for classroom documents, marksheets and lesson presentations",
+        "Module 1 - Mail Maintenance: professional email, etiquette, Google Workspace (Gmail, Drive, Docs, Sheets, Forms, Meet, Classroom)",
+        "Module 1 - Networking & Internet: browsers, safe search, cybersecurity basics, cloud storage",
+        "Module 1 - Computer Maintenance, printing, scanning and basic image editing",
+        "Module 2 - Child Psychology: stages of development, learning styles, classroom-management techniques, inclusive education",
+        "Module 2 - Communication Skills: public speaking, active listening, parent-teacher communication, conflict resolution",
+        "Module 2 - Personality Development: confidence, body language, time management, emotional intelligence, leadership",
+        "Module 3 - Programming Fundamentals: Scratch, HTML, CSS, VS Code, Python and Java basics",
+        "Module 3 - Software Fields: web development, app development, data science and AI/ML awareness for guiding students",
+        "Module 4 - Teaching Practice: lesson planning, live mock classes, structured feedback",
+        "Module 4 - Case Study: classroom observation, learning-gap analysis, intervention planning"
+      ],
+      "practical": [
+        "A capstone digital lesson package built in Word, Excel and PowerPoint",
+        "A simple personal or class webpage built with HTML and CSS",
+        "A documented student case study with an improvement plan",
+        "A live 15-20 minute mock class combining teaching practice and digital tools"
+      ],
+      "mockInterview": "One-on-one and panel mock interviews for teaching roles, with detailed feedback and a final readiness assessment before certification.",
+      "resumePrep": "A dedicated module on building a professional teaching resume and writing a compelling cover letter, avoiding common resume mistakes.",
+      "highlights": [
+        "80% hands-on, practical-first methodology",
+        "Four-module, 16-topic curriculum",
+        "Practical exercises, assignments and module tests",
+        "Final integrated project and mock interview",
+        "Certificate in Professional Digital Teaching",
+        "Flexible, school- or institute-ready delivery"
+      ]
+    },
+    {
+      "id": "hotel-management",
+      "name": "Hotel Management",
+      "tagline": "Front office, food & beverage and hospitality skills",
+      "category": "Hospitality",
+      "open": true,
+      "duration": "4 Months",
+      "mode": "Offline",
+      "eligibility": "10th, 12th or any degree",
+      "fee": 7999,
+      "originalFee": 12000,
+      "certification": "CITI Academy Certificate in Hotel Management Fundamentals, awarded after practical assessments and an internship-readiness review.",
+      "overview": "A foundation course in hospitality operations covering front office, food and beverage service, housekeeping and guest communication, built around practical drills so you walk into an internship or entry-level role already comfortable with the basics.",
+      "concepts": [
+        "Introduction to the hospitality industry and hotel departments",
+        "Front office operations: reservations, check-in / check-out, guest handling",
+        "Food & beverage service basics and table etiquette",
+        "Housekeeping fundamentals and room standards",
+        "Grooming, hygiene and professional presentation",
+        "Guest communication and complaint handling",
+        "Basic hospitality software and billing awareness"
+      ],
+      "practical": [
+        "Simulated front-desk and guest-handling drills",
+        "Table-service and grooming practicals",
+        "Mock housekeeping inspections"
+      ],
+      "mockInterview": "Mock interviews focused on hospitality roles, grooming standards and situational guest-handling questions.",
+      "resumePrep": "Resume building aimed at internships and entry-level hotel and hospitality roles.",
+      "highlights": [
+        "Practical training",
+        "Industry-recognised certificate",
+        "Interview preparation & guidance",
+        "Resume building support",
+        "Experienced & friendly trainers",
+        "Career guidance"
+      ]
+    }
+  ]
+}

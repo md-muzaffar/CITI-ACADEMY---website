@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.citiacademy.example/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.citiacademy.example/course.html?course=python-developer</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.citiacademy.example/course.html?course=ms-office</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.citiacademy.example/course.html?course=professional-computer-teacher-training</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.citiacademy.example/course.html?course=hotel-management</loc>
+    <priority>0.8</priority>
+  </url>
+</urlset>

@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title id="pageTitle">Course details — CITI Academy</title>
+<meta id="pageDescription" name="description" content="Course details, concepts, practical work and registration at CITI Academy, Mahabubnagar." />
+<meta name="robots" content="index, follow" />
+<link rel="icon" href="assets/favicon-32.png" sizes="32x32" />
+<link rel="apple-touch-icon" href="assets/favicon-192.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html"><img src="assets/logo.png" alt="CITI Academy" /></a>
+    <nav class="main-nav" id="mainNav">
+      <a href="index.html#courses">Courses</a>
+      <a href="index.html#why">Why us</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+    <div class="header-cta">
+      <a class="btn btn-navy btn-hide-mobile" href="index.html#courses">All courses</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="course-hero">
+    <div class="wrap">
+      <div class="breadcrumb"><a href="index.html">Home</a> &nbsp;/&nbsp; <a href="index.html#courses">Courses</a> &nbsp;/&nbsp; <span id="crumbName">…</span></div>
+      <div class="course-hero-top">
+        <div>
+          <span class="hero-kicker" id="courseCategory">Category</span>
+          <h1 id="courseName">Loading course…</h1>
+          <p class="lead" id="courseTagline" style="max-width:60ch;"></p>
+        </div>
+        <span class="badge-status" id="courseStatus"></span>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <div class="course-detail-grid">
+      <div>
+        <div class="detail-panel">
+          <h2>Overview</h2>
+          <p id="courseOverview"></p>
+        </div>
+
+        <div class="detail-panel">
+          <h2>What you'll learn</h2>
+          <ul class="check-list" id="conceptsList"></ul>
+        </div>
+
+        <div class="detail-panel">
+          <h2>Practical work</h2>
+          <ul class="check-list" id="practicalList"></ul>
+        </div>
+
+        <div class="detail-panel">
+          <h2>Mock interview &amp; resume preparation</h2>
+          <p id="mockInterviewText"></p>
+          <p id="resumePrepText"></p>
+        </div>
+
+        <div class="detail-panel">
+          <h2>Certification</h2>
+          <p id="certificationText"></p>
+        </div>
+      </div>
+
+      <aside>
+        <div class="side-summary">
+          <div class="fee-block">
+            <span class="fee" id="sideFee"></span><span class="was" id="sideOriginalFee"></span>
+          </div>
+          <div class="summary-row"><span>Duration</span><span id="sideDuration"></span></div>
+          <div class="summary-row"><span>Mode</span><span id="sideMode"></span></div>
+          <div class="summary-row"><span>Eligibility</span><span id="sideEligibility"></span></div>
+          <div class="summary-row"><span>Category</span><span id="sideCategory"></span></div>
+
+          <div id="registrationArea" style="margin-top:20px;"></div>
+        </div>
+      </aside>
+    </div>
+  </div>
+
+  <section class="section" id="highlightsSection">
+    <div class="wrap">
+      <div class="detail-panel">
+        <h2>Included with this course</h2>
+        <ul class="check-list" id="highlightsList" style="display:grid; grid-template-columns:1fr 1fr; gap:12px;"></ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> CITI Academy. All rights reserved.</span>
+      <a href="index.html#contact" style="color:#f5b301; text-decoration:none;">Contact us</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/shared.js"></script>
+<script src="js/config.js"></script>
+<script src="js/course.js"></script>
+</body>
+</html>
