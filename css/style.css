@@ -84,9 +84,12 @@ button{ font-family: inherit; }
 .btn-outline{
   background: transparent;
   border-color: rgba(255,255,255,.4);
-  color: inherit;
+  color: #0b1f4d;
 }
-.btn-outline:hover{ background: rgba(255,255,255,.1); }
+.btn-outline:hover{ 
+  background: rgba(255,255,255,.1);
+  color: #0b1f4d;
+}
 .btn-navy{
   background: var(--navy-900);
   color: var(--white);
