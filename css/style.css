@@ -129,6 +129,15 @@ button{ font-family: inherit; }
   text-decoration:none; color: var(--navy-900); font-weight:600; font-size:.95rem;
 }
 .main-nav a:hover{ color: var(--blue-500); }
+/* The header CTA (e.g. "Talk to us") is an <a class="btn ..."> living inside .main-nav.
+   .main-nav a's color was winning over the button's own color, making the text invisible
+   on its own navy/outline background. These rules restore the button's intended color. */
+.main-nav a.btn{ color: var(--white); }
+.main-nav a.btn:hover{ color: var(--white); }
+.main-nav a.btn-outline{ color: var(--navy-900); }
+.main-nav a.btn-outline:hover{ color: var(--navy-900); }
+.main-nav a.btn-primary{ color: var(--navy-950); }
+.main-nav a.btn-primary:hover{ color: var(--navy-950); }
 .header-cta{ display:flex; align-items:center; gap:14px; }
 .nav-toggle{ display:none; }
 
