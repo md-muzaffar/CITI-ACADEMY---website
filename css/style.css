@@ -84,11 +84,24 @@ button{ font-family: inherit; }
 .btn-outline{
   background: transparent;
   border-color: rgba(255,255,255,.4);
-  color: #0b1f4d;
+  color: var(--white);
 }
 .btn-outline:hover{ 
   background: rgba(255,255,255,.1);
-  color: #0b1f4d;
+  color: var(--white);
+}
+/* "Talk to us" sits on the white header — needs dark text, not white */
+.site-header .btn-outline{
+  border-color: var(--line);
+  color: var(--navy-900);
+}
+.site-header .btn-outline:hover{
+  background: var(--paper-dim);
+  color: var(--navy-900);
+}
+/* "Chat on WhatsApp" sits on the dark hero — stays white */
+.hero .btn-outline{
+  color: var(--white);
 }
 .btn-navy{
   background: var(--navy-900);
